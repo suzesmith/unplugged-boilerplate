@@ -98,19 +98,23 @@ textarea {
 
    header .content-wrapper {
      display: flex;
-     flex-flow: row wrap;
-   }
-
-  header nav {
-     display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
    }
 
+  header nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-flow: row wrap;
+     width: 60%;
+   }
+
   header nav ul {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
   footer .social {
@@ -125,7 +129,21 @@ textarea {
     align-items: center;
   }
 
-/* -------------------- Main Content Styles -------------------- */
+  footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+  }
+
+  footer .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+/* -------------------- Mobile - Homepage Styles -------------------- */
+
+/*  Hero Area */
 
    .hero-area {
      display: flex;
@@ -134,6 +152,8 @@ textarea {
      flex-flow: row wrap;
    }
 
+/*  Aside */
+
    aside {
      display: flex;
      justify-content: center;
@@ -141,25 +161,29 @@ textarea {
      flex-flow: row wrap;
    }
 
+/*  Features */
+
    .features {
      display: flex;
      justify-content: center;
-     align-items: center;
      flex-flow: row wrap;
    }
 
-   .features .features-icon {
-     display: flex;
-     justify-content: center;
-     align-items: center;
+   .features h2{
+     text-align: left;
    }
 
-   .features .features-item {
+   .features .features-items {
      display: flex;
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     width: 100%;
+     text-align: center;
    }
+
+
+/*  Reviews */
 
    .reviews {
      display: flex;
@@ -167,6 +191,14 @@ textarea {
      align-items: center;
      flex-flow: row wrap;
    }
+
+   .reviews .content-wrapper {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+
 
    /* -------------------- FAQ Styles -------------------- */
 
