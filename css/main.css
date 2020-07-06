@@ -87,6 +87,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   .content-wrapper {
+     width: 90%;
+     margin: 50px 0 0 0;
+   }
+
    /* -------------------- Base Header - Footer Styles -------------------- */
    header,
    footer {
@@ -101,6 +106,16 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     width: 100%;
+     margin: 0;
+   }
+
+   header {
+     padding: 15px 0;
+   }
+
+   header .header-divider {
+     width: 100%;
    }
 
   header nav {
@@ -139,6 +154,10 @@ textarea {
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  footer p {
+    margin: 0;
   }
 
 /* -------------------- Mobile - Homepage Styles -------------------- */
@@ -182,22 +201,29 @@ textarea {
      text-align: center;
    }
 
+   .features article {
+    width: 58%;
+    padding: 50px 0 40px 0;
+   }
 
+   .features-item-description {
+     padding-top: 35px;
+   }
+
+   .features p {
+     margin: 0;
+   }
 /*  Reviews */
 
    .reviews {
      display: flex;
      justify-content: center;
-     align-items: center;
      flex-flow: row wrap;
    }
 
-   .reviews .content-wrapper {
-     display: flex;
-     justify-content: center;
-     align-items: center;
+   .reviews h3 {
+     width: 88%;
    }
-
 
 
    /* -------------------- FAQ Styles -------------------- */
@@ -216,6 +242,14 @@ textarea {
      flex-flow: row wrap;
    }
 
+   .faq .faq-content h3 {
+     padding-top: 50px;
+     margin-top: 0;
+   }
+
+   .faq .faq-content h2 {
+     margin: 0;
+   }
    /* -------------------- About Styles -------------------- */
 
    .mission {
@@ -225,6 +259,10 @@ textarea {
      flex-flow: row wrap;
    }
 
+   .mission .mission-content h1 {
+     margin: 0;
+   }
+
    .contact-section {
      display: flex;
      justify-content: center;
@@ -232,6 +270,9 @@ textarea {
      flex-flow: row wrap;
    }
 
+   .contact-section h2 {
+     margin: 0;
+   }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
