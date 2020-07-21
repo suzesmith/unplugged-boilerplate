@@ -174,6 +174,7 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     padding-left: 65px;
    }
 
    header .header-divider {
@@ -183,7 +184,7 @@ textarea {
      margin: 10px 0 20px 0;
    }
 
-  header nav {
+   header nav {
      display: flex;
      justify-content: space-around;
      align-items: center;
@@ -191,6 +192,7 @@ textarea {
      width: 60%;
      font-size: 1.125em;
      font-weight: 700;
+     padding-left: 50px;
    }
 
   header nav ul {
@@ -567,10 +569,12 @@ textarea {
 
   header figure {
     width: 30%;
+    padding-left: 0;
   }
 
   header nav {
     width: 30%;
+    padding-left: 0;
   }
 
   header nav ul {
@@ -765,6 +769,10 @@ textarea {
   p {
       font-size: 1.125em;
       line-height: 1.333;
+  }
+
+  header nav {
+    width: 25%;
   }
 
   /*Hero Area*/
