@@ -204,6 +204,11 @@ textarea {
     font-size: 1.125em;
   }
 
+  footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+  }
+
   footer {
     background-color: #202322;
     color:  #e2e3ed;
@@ -215,10 +220,8 @@ textarea {
     margin-bottom: 50px;
   }
 
-  footer .social-icons p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  footer p {
+    margin: 0;
   }
 
   footer .social-icons {
@@ -227,14 +230,19 @@ textarea {
     align-items: center;
   }
 
-  footer .content-wrapper {
-    width: 55%;
-    margin: 50px 0;
+  footer .social-icons p {
+    background-color: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  footer p {
-    margin: 0;
-  }
+  footer .social-icons p i {
+    font-size: 1.3125em;
+ }
 
   footer .copyright {
     text-align: center;
@@ -340,7 +348,7 @@ textarea {
 	font-size: 3.75em;
         margin-bottom: 40px;
   }
-  
+
 /*  Reviews */
 
    .reviews {
@@ -669,6 +677,10 @@ textarea {
 
     footer p {
         line-height: 1.285;
+    }
+
+    footer .social-icons {
+      width: 12.5em;
     }
 
     footer .copyright {
